@@ -22,6 +22,7 @@
                         primary: '#0077b6',
                         secondary: '#eb5e28',
                         tertiary: '#f72585',
+                        highlight: '#3d348b',
                     }
                 }
             }
@@ -55,7 +56,7 @@
         <section class="bg-[url('./images/banner.jpg')] bg-cover ">
             <div class="flex items-center justify-center h-screen">
                 <div class="text-center ">
-                    <h1 class="text-4xl font-bold bg-primary p-3 mb-6 rounded text-white ">
+                    <h1 class="text-4xl font-bold bg-highlight p-3 mb-6 rounded text-white ">
                         Country, City and Region Guides</h1>
                     <input type="text" class=" p-2 rounded mb-6  w-full border-2 border-black "
                         placeholder="Where would you like to go?">
@@ -64,13 +65,65 @@
             </div>
         </section>
 
-        <!-- follow us  -->
+        <!-- follow us part  -->
         <section class="w-11/12 mx-auto my-10">
             <h2 class="text-center text-primary text-xl ">Follow us on </h2>
-            <div class="flex justify-center items-center gap-8 my-2 text-tertiary ">
-                <p><a href="#"><i class="fa-brands fa-facebook text-3xl"></i></a></p>
-                <p><a href="#"><i class="fa-brands fa-pinterest text-3xl"></i></i></a></p>
-                <p><a href="#"><i class="fa-brands fa-twitter text-3xl"></i></a></p>
+            <div class="flex justify-center items-center gap-8 my-2  ">
+                <p><a href="#"><i class="fa-brands fa-facebook text-3xl text-tertiary hover:text-primary"></i></a></p>
+                <p><a href="#"><i class="fa-brands fa-pinterest text-3xl text-tertiary hover:text-primary"></i></i></a>
+                </p>
+                <p><a href="#"><i class="fa-brands fa-twitter text-3xl text-tertiary hover:text-primary"></i></a></p>
+            </div>
+        </section>
+
+        <!-- informatin part  -->
+        <section class=" bg-highlight text-white ">
+            <div class="w-8/12 mx-auto py-10">
+                <h2 class="text-center  text-2xl  font-semibold text-secondary mb-5">Editorial Foreword</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto et placeat magni hic. Beatae
+                    dolor praesentium neque minus officiis, magnam soluta provident dolorum consequatur facere aliquid
+                    reprehenderit accusamus quod obcaecati molestiae nam porro excepturi similique. Eius cupiditate quod
+                    possimus architecto.
+                    <br> <br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui quae nihil veritatis. Voluptas
+                    repudiandae pariatur odio molestiae dolores incidunt, inventore magni voluptatibus asperiores,
+                    reiciendis ducimus beatae reprehenderit! Perspiciatis, natus quod.
+                </p>
+            </div>
+        </section>
+
+        <!-- country guides  -->
+        <section class="w-11/12 mx-auto py-10">
+            <div class="my-5 text-center">
+                <h1 class="text-3xl font-bold  mb-4 ">Country/ State/ Region Guides </h1>
+                <button class="rounded border-2 border-highlight px-3 py-1 hover:bg-tertiary hover:text-white ">See more
+                </button>
+            </div>
+            <div class="grid grid-cols-3 gap-10">
+                <div class="">
+                    <div class="hover:text-tertiary">
+                        <a href=""><img src="./images/rome.jpg" class="w-full object-cover	" alt=""></a>
+                        <h1 class="text-2xl my-3 font-semibold hover:text-tertiary">Rome, Italy</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid itaque soluta nam repudiandae
+                        magni temporibus? Porro non perspiciatis nesciunt voluptatem!</p>
+                </div>
+                <div class="">
+                    <div class="hover:text-tertiary">
+                        <a href=""><img src="./images/greece.jpg" class="w-full object-cover" alt=""></a>
+                        <h1 class="text-2xl my-3 font-semibold ">Authen, Greece</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid itaque soluta nam repudiandae
+                        magni temporibus? Porro non perspiciatis nesciunt voluptatem!</p>
+                </div>
+                <div class="">
+                    <div class="hover:text-tertiary">
+                        <a href=""><img src="./images/paris.jpg" class="w-full object-cover	" alt=""></a>
+                        <h1 class="text-2xl my-3 font-semibold hover:text-tertiary">Paris, Franch</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid itaque soluta nam repudiandae
+                        magni temporibus? Porro non perspiciatis nesciunt voluptatem!</p>
+                </div>
             </div>
         </section>
 
