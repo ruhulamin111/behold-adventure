@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Behold Adventure
-    </title>
+    <title>Behold Adventure </title>
+    <!-- custom font  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/166fb70d22.js" crossorigin="anonymous"></script>
+
     <!-- css framework  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -28,11 +33,19 @@
     <header class="bg-primary">
         <nav class="w-11/12 mx-auto h-20 flex justify-between items-center	text-white ">
             <div>
-                <h1>hello</h1>
+                <h1><a href="#home" class="text-3xl font-semibold hover:text-secondary">Behold Adventure</a></h1>
             </div>
             <div>
-                <h1>hello</h1>
-
+                <ul class="flex text-xl ">
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">
+                            <i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">Home</a></li>
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">Country Guides</a></li>
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">City Guides</a></li>
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">Food & Drinks</a></li>
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">Flights</a></li>
+                    <li><a class="hover:bg-secondary py-7 px-4" href="#home">About</a></li>
+                </ul>
             </div>
         </nav>
     </header>
