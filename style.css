@@ -4,6 +4,39 @@ body {
     font-family: 'Gantari', sans-serif;
 }
 
+.animateleft {
+    animation: slideleft 1s linear 1s forwards;
+}
+
+.animate {
+    animation: slidetop 1s linear forwards;
+}
+
+@keyframes slidetop {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+/* 
 .leaf {
     position: absolute;
     width: 100%;
@@ -68,4 +101,4 @@ body {
         top: 100%;
         transform: translateX (20px);
     }
-}
+} */
